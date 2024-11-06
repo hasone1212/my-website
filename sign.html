@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>تسجيل المستخدم الجديد</title>
+    <!-- إضافة مكتبة Bootstrap لتصميم رائع ومتجاوب -->
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        body {
+            background-color: #f4f7fa;
+            font-family: 'Arial', sans-serif;
+            padding-top: 50px;
+        }
+
+        .register-form {
+            background-color: #ffffff;
+            padding: 40px;
+            border-radius: 15px;
+            box-shadow: 0 8px 30px rgba(0, 0, 0, 0.1);
+            max-width: 500px;
+            margin: 0 auto;
+        }
+
+        .register-form h2 {
+            text-align: center;
+            font-size: 28px;
+            margin-bottom: 30px;
+            color: #2C3E50;
+        }
+
+        .form-control {
+            height: 45px;
+            font-size: 16px;
+            margin-bottom: 20px;
+            border-radius: 8px;
+            border: 1px solid #ddd;
+        }
+
+        .btn-custom {
+            background-color: #2980B9;
+            color: #fff;
+            width: 100%;
+            padding: 12px;
+            font-size: 18px;
+            border: none;
+            border-radius: 8px;
+            cursor: pointer;
+            transition: background-color 0.3s;
+        }
+
+        .btn-custom:hover {
+            background-color: #3498db;
+        }
+
+        .form-link {
+            display: block;
+            text-align: center;
+            margin-top: 20px;
+            font-size: 16px;
+            color: #2980B9;
+        }
+
+        .form-link a {
+            color: #2980B9;
+            text-decoration: none;
+        }
+
+        .form-link a:hover {
+            text-decoration: underline;
+        }
+
+        label {
+            font-size: 18px;
+            font-weight: bold;
+            color: #34495E;
+        }
+
+        .btn-back {
+            background-color: #e74c3c;
+            color: white;
+            width: 100%;
+            padding: 12px;
+            font-size: 18px;
+            border: none;
+            border-radius: 8px;
+            cursor: pointer;
+            margin-top: 20px;
+            transition: background-color 0.3s;
+        }
+
+        .btn-back:hover {
+            background-color: #c0392b;
+        }
+
+        .social-btn {
+            display: flex;
+            justify-content: space-between;
+            margin-top: 20px;
+        }
+
+        .social-btn a {
+            display: block;
+            width: 48%;
+            padding: 12px;
+            text-align: center;
+            border-radius: 8px;
+            color: white;
+            font-size: 16px;
+            text-decoration: none;
+        }
+
+        .google-btn {
+            background-color: #DB4437;
+        }
+
+        .facebook-btn {
+            background-color: #3b5998;
+        }
+
+        .google-btn:hover {
+            background-color: #c1351d;
+        }
+
+        .facebook-btn:hover {
+            background-color: #2d4373;
+        }
+    </style>
+    <!-- إضافة مكتبة جوجل -->
+    <script src="https://apis.google.com/js/platform.js" async defer></script>
+    <!-- إضافة مكتبة فيسبوك -->
+    <script async defer crossorigin="anonymous" src="https://connect.facebook.net/ar_AR/sdk.js#xfbml=1&version=v14.0"></script>
+</head>
+<body>
+
+    <div class="container">
+        <div class="register-form">
+            <h2>تسجيل المستخدم الجديد</h2>
+            <form method="get" action="fun/add_user.php">
+                <div class="form-group">
+                    <label for="username">اسم المستخدم</label>
+                    <input type="text" class="form-control" id="username" name="the_user" placeholder="اسم المستخدم" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="full_name">الاسم الكامل</label>
+                    <input type="text" class="form-control" id="full_name" name="Full_Name" placeholder="الاسم الكامل" required>
+                </div>
+                <div class="form-group">
+                    <label for="password">كلمة المرور</label>
+                    <input type="password" class="form-control" id="password" name="The password" placeholder="كلمة المرور" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="reset_password">إعادة كلمة المرور</label>
+                    <input type="password" class="form-control" id="reset_password" name="Reset Password" placeholder="إعادة كلمة المرور" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="phone">الهاتف</label>
+                    <input type="tel" class="form-control" id="phone" name="the-phone" placeholder="الهاتف" required>
+                </div>
+
+                <button type="submit" class="btn-custom">تسجيل</button>
+            </form>
+
+            <!-- أزرار الدخول عبر جوجل وفيسبوك -->
+            <div class="social-btn">
+                <!-- زر الدخول عبر جوجل -->
+                <a href="#" class="google-btn">
+                    <span class="g-signin2" data-onsuccess="onSignIn">دخول باستخدام جوجل</span>
+                </a>
+
+                <!-- زر الدخول عبر فيسبوك -->
+                <div class="fb-login-button" data-size="large" data-button-type="continue_with" data-layout="rounded" data-auto-logout-link="false" data-use-continue-as="true"></div>
+            </div>
+        </div>
+    </div>
+
+    <!-- سكربت جوجل -->
+    <script>
+        function onSignIn(googleUser) {
+            var profile = googleUser.getBasicProfile();
+            console.log("تم الدخول باستخدام جوجل: " + profile.getName());
+            // هنا يمكن إضافة عملية حفظ بيانات المستخدم أو الانتقال إلى صفحة أخرى بعد تسجيل الدخول
+        }
+    </script>
+
+</body>
+</html>

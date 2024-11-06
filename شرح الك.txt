@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html>
+<head> 
+     <title>at</title>  
+</head>
+<style type="text/css">
+   ul{
+        lis-style-type:none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        background-color: #000000;
+     }
+     li{
+        float:left;
+        border-right: 1px solid #cc1818;
+     }
+     li a{
+        color:rgb(255, 255, 255);
+        text-align: center; 
+        padding: 15px;
+        text-decoration: none;
+        display: block;
+    }
+   </style>
+   <body>
+    <div style="width: 100%; position: fixed; top: 0;">
+    </div>
+   <ul>
+        <li><a href="">اتصل بنا</a></li>
+<!DOCTYPE html>
+<html>
+<head> 
+     <title>at</title>  
+</head>
+<style type="text/css">
+   ul{
+        lis-style-type:none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        background-color: #000000;
+     }
+     li{
+        float:left;
+        border-right: 1px solid #cc1818;
+     }
+     li a{
+        color:rgb(255, 255, 255);
+        text-align: center; 
+        padding: 15px;
+        text-decoration: none;
+        display: block;
+    }
+   </style>
+   <body>
+    <div style="width: 100%; position: fixed; top: 0;">
+    </div>
+   <ul>
+        <li><a href="">اتصل بنا</a></li>
+        <li><a href="#d3">الخطة </a></li>
+        <li><a href="#d3"> فريق العمل</a></li>
+        <li><a href="#d3"> الكتب</a></li>
+        <li><a href="#d1"> الرئيسية</a></li>
+        <li style="float:right;"><a href="">تسجيل الدخول</a></li>
+    </ul>
+    </div>
+    <center>
+        <br><br>
+    <h1 id="d1">مكتبة المعرفة</h1>
+    <p>
+            هي وعاء جامعاَ ومتجدد لكل انواع المعرفة والعلوم والبحث العلمي وتعمل على تقديم وتسهيل الحصول على الخدمات المعلوماتية اللازمة لاغراض التعليم والبحث العلمي المميز من خلال ما تحتويه المكتبة من مصادر معلومات باشكالها وانواعها المختلفة لخدمة الفرد والمجتمع.
+            
+    </p>
+    <div>
+        <img style="width: 100%;"height:400px; sty src="F:مكتبه/img/pp.jpg"> 
+    </div>
+    </div>
+    
+    <h1 id="d2">حول المكتبة واهدافها </h1>
+        <br><br>
+        <p>
+            
+                                     التزويد المستمر للمكتبة بمصادر المعلومات التي يحتاجها اعضاء هيئة التدريس و الطلاب الباحثين ومتابعة تحديثها وتزويدهم بها باستمرار.
+                                                                                 تطوير النظم المكتبية بما يتفق مع التطورات الحديثة في مجال خدمات المكتبات والمعلومات.
+                                           تيسير الخدمات المكتبية لجميع المستفيدين من منتسبي الجامعة و خارجها وتمكينهم منالوصول الى مصادر و مراجع الكتب بافضل السبل.
+                                                                                                                   تهيئة المناخ المناسب داخل المكتبة للدراسة والبحث.
+                                                                                                                                    التطوير المستمر لمنتسبي المكتبي.
+                                                                                           التعاون مع نظيراتها في الاقسام والجامعات الاخرى و كذلك دور النشر و التوزيع.
+                                                المساهمة في خدمة المجتمع من خلال مشاركات الجامعة ممثلة بمنتسبي المكتبة المركزيةفي الانشطة والفعاليات العلمية ذات العلاقة.
+                                                                    فتح قنوات الاتصال و الشراكات مع المكتبات الوطنية والعالمية من خلال خدمة التواصلالمعلنة في موقع المكتبة.
+        </p>
+
+</body>
+</html>
+    </div>
+    <h1 id="d3">الكتب</h1>
+    </div style="float: left;">
+            <img style="width: 26%;"height:400PX; sty src="F:مكتبه/img/d1.jpg"> 
+        </div style="float: left;">
+        <img style="width: 27%;"height:400px; sty src="F:مكتبه/img/d2.jpg"> 
+    </div style="float: left;">
+    <img style="width: 25%;"height:400px; sty src="F:مكتبه/img/d3.jpg"> 
+</div style="float: left;">
+<img style="width: 26%;"height:400px; sty src="F:مكتبه/img/d4.jpg"> 
+</div style="float: left;">
+<img style="width: 27%;"height:400px; sty src="F:مكتبه/img/d5.jpg"> 
+</div style="float: left;">
+<img style="width: 25%;"height:400px; sty src="F:مكتبه/img/d6.jpg"> 
+        </div>  
+
+
+    </div>
+    <div style="background: rgb(99, 97, 97); width: 100%; height: 500PX; ">
+    <h1 id="d4">  خطة العمل  </h1>
+        <br>
+       
+        <h1>ملخص المشروع ( صفحة واحدة)</h1>
+        <Label>نظرة على الشركة (المشروع) (صفحة واحدة تقريبا) </label><br> 
+            <Label>المنتج أو الخدمة المقدمة (صفحة واحدة تقريباً)</label><br> 
+                <Label> تحليل القطاع والسوق (3) صفحات تقريباً</label><br> 
+                    <Label>الخطة التسويقية (4) صفحات تقريبا</label><br> 
+                        <Label>الخطة التشغيلية صفحتين تقريباً</label><br> 
+                            <Label>الخطة التطويرية (صفحة واحدة تقريباً) </label><br> 
+                                <Label>الإدارة (صفحة واحدة تقريبا) </label><br> 
+                                    <Label>
+                                        الخطة المالية (3) صفحات تقريباً</label><br> 
+                                        <Label>التمويل (صفحة واحدة تقريباً). </label><br> 
+                                            <Label> 
+                                                الملاحق بقدر الحاجة </label><br> 
+                            </div>
+        <br>
+    <div style="background: rgb(99, 127, 153); width: 100%; height: 500PX; ">
+<h2>اتصل بنا</h2>
+<form>
+    <div>
+        <input type=""name="">
+        <label>الاسم</label>
+    </div>
+    <div>
+        <input type=""name="">
+        <label>العنوان</label>
+    </div>
+
+    <div>
+        <input type=""name="">
+        <label>الاميل</label>
+    </div>
+
+    <div>
+        <input type=""name="">
+        <label>المرساله</label>
+    </div>
+
+    <div>
+        <input type="submit"name="" value="ارسال" >
+    </div>
+
+
+
+
+
+</form>
+    </center>
+</body>
+</html>

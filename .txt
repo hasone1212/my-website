@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head> 
+     <title>at</title>  
+</head>
+<style type="text/css">
+   ul{
+        lis-style-type:none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        background-color: #000000;
+     }
+     li{
+        float:left;
+        border-right: 1px solid #cc1818;
+     }
+     li a{
+        color:rgb(255, 255, 255);
+        text-align: center; 
+        padding: 15px;
+        text-decoration: none;
+        display: block;
+    }
+   </style>
+   <body>
+   <ul>
+        <li><a href="">اتصل بنا</a></li>
+        <li><a href="">الخطة </a></li>
+        <li><a href=""> فريق العمل</a></li>
+        <li><a href=""> الكتب</a></li>
+        <li><a href=""> الرئيسية</a></li>
+        <li style="float:right;"><a href="">تسجيل الدخول</a></li>
+    </ul>
+</body>
+</html>
